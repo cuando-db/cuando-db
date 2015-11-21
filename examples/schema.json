@@ -1,0 +1,29 @@
+{
+		"/corporateRelationships/officerTitle/" : {
+			"type" : "setOfPref"
+		},
+		"/corporateRelationships/isTenPercentOwner/" : {
+			"type" : "setOfPref"
+		},
+		"/corporateRelationships/isDirector/" : {
+			"type" : "setOfPref"
+		},
+		"/corporateRelationships/" : {
+			"type" : "setOf",
+			"keyField" : "issuerCik"
+		},
+		"/securities/sharesOwnedFollowingTransaction/" : {
+			"type" : "setOfPref"
+		},
+		"/corporateRelationships/isOfficer/" : {
+			"type" : "setOfPref"
+		},
+		"/" : {
+			"type" : "setOf",
+			"keyField" : "reportingOwnerId"
+		},
+		"/securities/" : {
+			"type" : "setOf",
+			"keyField" : "issuerCik"
+		}
+	}

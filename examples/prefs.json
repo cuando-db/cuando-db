@@ -1,0 +1,97 @@
+{
+		"/corporateRelationships/isTenPercentOwner/" : [
+			{
+				"v1" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"v2" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"op" : ">"
+			}
+		],
+		"/securities/officerTitle/" : [
+			{
+				"v1" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"v2" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"op" : ">"
+			}
+		],
+		"/corporateRelationships/isDirector/" : [
+			{
+				"v1" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"v2" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"op" : ">"
+			}
+		],
+		"/securities/sharesOwnedFollowingTransaction/" : [
+			{
+				"v1" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"v2" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"op" : ">"
+			}
+		],
+		"/corporateRelationships/isOfficer/" : [
+			{
+				"v1" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"v2" : {
+					"type" : "attr",
+					"parameters" : {
+						"dim" : "asof",
+						"bound" : "start"
+					}
+				},
+				"op" : ">"
+			}
+		]
+	}
